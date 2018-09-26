@@ -14,5 +14,6 @@ public class JenkinsTestApplication {
 	public static void main(String[] args) {
 		LOGGER.info("Starting Spring Boot application...");
 		SpringApplication.run(JenkinsTestApplication.class, args);
+		LOGGER.info("Stopping Spring Boot application...");
 	}
 }
